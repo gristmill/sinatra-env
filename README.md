@@ -1,6 +1,6 @@
 # Sinatra Env
 
-A few methods for inquiring about the Sinatra/Rack environment a' la Rails.
+A few methods for inquiring about the Sinatra/Rack environment a`la Rails.
 
 ```ruby
 Sinatra.env
