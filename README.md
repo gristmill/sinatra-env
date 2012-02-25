@@ -24,9 +24,9 @@ require 'sinatra-env'
 
 # ./database.yml
 # production:
-#   database: mysql://root@host.com
+#   database: mysql://root@localhost/database_name
 # development:
-#   database: sqlite://database.sqlite
+#   database: sqlite://db/database.sqlite
 database = YAML.load_file("database.yml")[Sinatra.env]
 
 get '/' do
