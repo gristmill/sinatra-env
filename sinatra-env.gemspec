@@ -8,11 +8,9 @@ Gem::Specification.new do |s|
   s.version     = Sinatra::Env::VERSION
   s.authors     = ["Sean Behan"]
   s.email       = ["bseanvt@gmail.com"]
-  s.homepage    = ""
+  s.homepage    = "http://github.com/gristmill/sinatra-env"
   s.summary     = %q{Sinatra Env}
   s.description = %q{Sinatra.env a`la Rails.env}
-
-  s.rubyforge_project = "sinatra-env"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
