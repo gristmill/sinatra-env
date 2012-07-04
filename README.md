@@ -37,3 +37,9 @@ get '/' do
   end
 end
 ```
+
+## License
+
+MIT license:
+
+http://www.opensource.org/licenses/MIT
